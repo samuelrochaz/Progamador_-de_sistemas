@@ -1,14 +1,11 @@
-function Maior (n1, n2, n3) {
-    let maior = n1;
-    //comparar o primeiro numero com o segundo
-    if (n2 > maior) {
-        maior = n2;
-    }
-    if (n3 > maior) {
-        maior = n3;
-    }
-    return maior;
+import { Maior } from "../../lista4/exercicio13.js";
+function Maiorde3 (n1, n2, n3) {
+    let lista = [n1, n2, n3]
+    return Maior(lista);
 }
-console.log(Maior(3, 7, 5));
-console.log(Maior(-1, -5, -3));
-console.log(Maior(8, 2, 10));
+
+
+console.log("\n--> lista 3 <--")
+console.log(Maiorde3(3, 7, 5));
+console.log(Maiorde3(-1, -5, -3));
+console.log(Maiorde3(8, 2, 10));

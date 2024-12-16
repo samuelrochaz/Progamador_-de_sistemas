@@ -1,4 +1,4 @@
-import { verificaranagrama } from "./importação.js";
+import { verificaranagrama } from "./importacao.js";
 
 
 console.log(verificaranagrama("listen", "silent")); //true

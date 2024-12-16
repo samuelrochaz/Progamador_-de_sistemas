@@ -10,9 +10,9 @@ export function verificaranagrama(xx, yy) {
     return false
 }
 
-function verificarpalindromo(xx) {
-    let aa = xx.split('').reverse().join('');
-    if (aa === xx) {
+function verificarpalindromo(texto) {
+    let aa = texto.split('').reverse().join('');
+    if (aa === texto) {
         return true
     }
     return false

@@ -1,4 +1,4 @@
-import { verificarpalindromo } from "./importação";
+import { verificarpalindromo } from "./importacao";
 
 console.log(verificarpalindromo("racecar"));
 console.log(verificarpalindromo("hello"));
