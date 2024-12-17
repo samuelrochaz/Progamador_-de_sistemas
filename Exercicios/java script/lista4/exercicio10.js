@@ -1,13 +1,9 @@
-import { somaPar } from "../final/biblioteca";
+import { somaPares } from "../final/biblioteca.js";
 
-var lista1 = [1, 2, 3, 4, 5];
-console.log(somaPar(lista1));
+console.log(somaPares([1, 2, 3, 4, 5]));
 
-var lista2 = [2, 4, 6, 8];
-console.log(somaPar(lista2));
+console.log(somaPares([2, 4, 6, 8]));
 
-var lista3 = [1, 3, 5, 7];
-console.log(somaPar(lista3));
+console.log(somaPares([1, 3, 5, 7]));
 
-var lista4 = [];
-console.log(somaPar(lista4));
+console.log(somaPares([]));
