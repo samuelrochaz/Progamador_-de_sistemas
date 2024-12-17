@@ -4,6 +4,7 @@ function Impar0upar(nm) {
 }
 return "Impar"
 }
+
 console.log(Impar0upar(4));
 console.log(Impar0upar(7));
 console.log(Impar0upar(0));

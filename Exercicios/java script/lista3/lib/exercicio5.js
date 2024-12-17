@@ -1,4 +1,4 @@
-import { Maior } from "../../lista4/exercicio13.js";
+import { Maior } from "../../final/biblioteca.js"
 function Maiorde3 (n1, n2, n3) {
     let lista = [n1, n2, n3]
     return Maior(lista);

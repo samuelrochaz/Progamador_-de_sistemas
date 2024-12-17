@@ -1,4 +1,4 @@
-import { Maior } from "../../lista4/exercicio13.js";
+import { Maior } from "../final/biblioteca.js"
 
 console.log(Maior([1, 2, 3, 4, 5]));
 console.log(Maior([-1, -2, -3, -4, -5]));
