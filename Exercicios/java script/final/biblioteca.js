@@ -34,14 +34,26 @@ export function verificarpalindromo(texto) {
     }
     return false
 }
-// lista4 - exercicio16
-export function somaPar(lista) {
-    var soma = 0;
+// lista4 - exercicio10
+export function verificaPar(nm) {
+    return nm % 2 === 0 
+}
+export function somaPares (lista) {
+    var numpar = lista.filter(verificaPar)
+    return somaLista(numpar)
+}
 
-    for (var i = 0; i < lista.length; i++) {
-        if (lista[i] % 2 === 0) {
-            soma += lista[i];
-        }
-    }
-    return soma;
+// lista3 - exercicio2
+export function imparOupar(nm) {
+    return verificaPar(nm) ? "par": "Impar"
+}
+
+// lista4 - exercicio12
+export function somarDigito(numero) {
+    var digito = numero.toString().split('')
+    var soma = somaLista(digito)
+    // var soma = 0;
+    // for (var i = 0; i < list.length; i++) {
+    //     soma += Number(aa[i]);
+     return soma
 }
