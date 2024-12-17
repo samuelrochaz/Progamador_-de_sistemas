@@ -1,11 +1,7 @@
-function Impar0upar(nm) {
-    if(nm % 2 ==0){
-        return "Par"
-}
-return "Impar"
-}
+import { imparOupar } from "../../final/biblioteca.js";
+// import { somaPar } from "../../final/biblioteca.js";
 
-console.log(Impar0upar(4));
-console.log(Impar0upar(7));
-console.log(Impar0upar(0));
-console.log(Impar0upar(-5));
+console.log(imparOupar(4));
+console.log(imparOupar(7));
+console.log(imparOupar(0));
+console.log(imparOupar(-5));
