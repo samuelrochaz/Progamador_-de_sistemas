@@ -1,13 +1,4 @@
-function encontrarPrimo(np) {
-    if (np < 2) return "false";
-    for (var div = 2; div < np; div++) {
-        if (np % div === 0) {
-
-            return false
-        }
-        return true
-    }
-}
+import { encontrarPrimo } from "../../final/biblioteca.js";
 const numeros = [7, 10, 13, 0, 1, 2, 327, 847, 1573, 31, -3, -31]
 const primos = numeros.filter(encontrarPrimo);
 console.log(encontrarPrimo(7));
