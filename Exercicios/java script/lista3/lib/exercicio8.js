@@ -1,10 +1,5 @@
-function verificarletra(letra) {
-    if ('aeiou'.includes(letra)) {
-        return "Vogal";
-    } else {
-     return "Consoante";
-    }
-}
+import { verificarletra } from "../../final/biblioteca.js"; 
+
 console.log(verificarletra("a"));
 console.log(verificarletra("b"));
 console.log(verificarletra("e"));
