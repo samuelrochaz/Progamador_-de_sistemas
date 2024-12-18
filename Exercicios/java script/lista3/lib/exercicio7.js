@@ -1,12 +1,5 @@
-function verificarBissexto(ano) {
-    if (ano % 400 === 0) return true;
+import { verificarBissexto } from "../../final/biblioteca.js";
 
-    if (ano % 100 === 0) return false;
-
-    if (ano % 4 === 0) return true;
-
-    return "false"
-}
 console.log(verificarBissexto(2020));
 console.log(verificarBissexto(2024));
 console.log(verificarBissexto(1999));
