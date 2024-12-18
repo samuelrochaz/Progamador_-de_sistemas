@@ -1,6 +1,4 @@
-function separar (texto,separador) {
-return texto.split(separador); 
-}
+import { separar } from "../final/biblioteca.js";
 
 console.log(separar("O rato roeu a roupa do rei de Roma", " "));//cenario1
 console.log(separar("JavaScript é muito fácil!", " "));//cenario2
