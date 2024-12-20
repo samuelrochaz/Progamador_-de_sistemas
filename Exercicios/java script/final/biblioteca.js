@@ -147,7 +147,7 @@ export function verificarletra(letra) {
 }
 
 //lista3 - exercicio14
-export function tabuada(n){
+export function tabuada12(n){
     for(var k=0; k <= 10; k++) console.log(`${n} x ${k} = ${n*k}`);
     }
 
@@ -180,3 +180,54 @@ export function calcularVolume(x) {
       let volume = (4/3) * pi * Math.pow(raio, 3);
       return volume.toFixed(4);
   }
+
+  //lista3 - exercicio9
+  export function notas(val) {
+      if (val >= 90) {
+          return "A"
+        } else if (val >= 80 && val <= 89) {
+            return "B"
+        } else if (val >= 70 && val <= 79) {
+            return "C"
+        }else if (val >= 60 && val <= 69) {
+            return "D"
+        } else {
+            return "F"
+        }
+    }
+
+    //lista3 - exercicio10
+    export function somaR(x) {
+        var x = 0
+        var y = 0
+        while (x < x ) {
+            
+            var x = x + 1
+            
+            var y = y + x
+            console.log(y)
+            
+            return y
+        }
+    }
+    
+    //lista3 - exercicio11
+    export function fat(x) {
+        var resul = 1;
+        for (var i = 1; i <= x; i++) {
+            resul *= i;
+        }
+        return resul;
+    }
+    
+    //lista3 - exercicio12
+    export function tabuada12(x) {
+        for (var i = 0; i <= 10; i ++ ) {
+        
+       var n2 = x * i
+      var linha = `${x} x ${i} = ${n2}`
+    
+      return linha
+    
+     }
+    }
