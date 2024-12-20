@@ -1,8 +1,6 @@
-function quadrado(x) {
-    var num = x * x
-return num
-}
-console.log(quadrado(2));
-console.log(quadrado(5));
-console.log(quadrado(10));
-console.log(quadrado(0.5));
+import { quadradols2 } from "../final/biblioteca.js";
+
+console.log(quadradols2(2));
+console.log(quadradols2(5));
+console.log(quadradols2(10));
+console.log(quadradols2(0.5));

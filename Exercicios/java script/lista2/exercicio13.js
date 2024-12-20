@@ -1,9 +1,5 @@
-function raiz (x) {
-    
-   var result = Math.sqrt(x);
-    
-    return result
-  }
-  console.log(raiz(16));
-  console.log(raiz(9));
-  console.log(raiz(121));
+import { raizQuadrada } from "../final/biblioteca.js";
+
+  console.log(raizQuadrada(16));
+  console.log(raizQuadrada(9));
+  console.log(raizQuadrada(121));

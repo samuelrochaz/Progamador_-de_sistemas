@@ -231,3 +231,62 @@ export function calcularVolume(x) {
     
      }
     }
+
+// lista2 - exercicio4
+export function multip(n1, n2) {
+    total = n1 * n2;
+    
+    return total;
+}
+
+// lista2 - exercicio5
+export function dividirls2 (x, y) {    
+    result = Math.floor(x / y);
+    
+    return result
+}
+
+// lista2 - exercicio6
+export function raizls2 (x, y) {
+    
+    result = Math.floor(x / y);
+    
+    return result
+}
+
+// lista2 - exercicio8
+export function quadradols2(x) {
+    var num = x * x
+    return num
+}
+
+// lista2 - exercicio9
+export function divResto (x, y) {
+    var resto = x % y 
+    return resto 
+}
+
+// lista2 - exercicio10
+export function area(x, y) {
+    var altura = x
+    var largura = y
+    
+    var reusultado = altura * largura;
+    return reusultado 
+}
+
+// lista2 - exercicio11
+export function potencia(x, y) {
+    var reusultado = x ** y
+    return reusultado
+}
+
+// lista2 - exercicio13
+export function raizQuadrada (x) {
+    
+    var result = Math.sqrt(x);
+    
+    return result
+}
+
+// lista2 - exercicio13

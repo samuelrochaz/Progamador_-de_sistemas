@@ -1,7 +1,5 @@
-function divResto (x, y) {
-    var resto = x % y 
-    return resto 
-}
+import { divResto } from "../final/biblioteca.js";
+
 console.log(divResto(20, 3));
 console.log(divResto(25, 5));
 console.log(divResto(100, 10));
