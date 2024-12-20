@@ -162,3 +162,21 @@ export function encontrarPrimo(np) {
         return true
     }
 }
+
+//lista2 - exercicio14
+export function calcularPerimetro(x) {
+    return parseFloat(x) * 2.0 * 3.14159;
+}
+
+//lista2 - exercicio15
+export function temperatura (tmp) {
+    return tmp * 9 / 5 + 32
+}
+
+//lista2 - exercicio16
+export function calcularVolume(x) {
+    let raio = parseFloat(x);
+    const pi = 3.14159;
+      let volume = (4/3) * pi * Math.pow(raio, 3);
+      return volume.toFixed(4);
+  }
